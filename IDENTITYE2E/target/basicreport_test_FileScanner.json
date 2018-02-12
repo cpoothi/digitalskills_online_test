@@ -1,0 +1,63 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Verifying vehicle information",
+        "description": "",
+        "id": "vehicle-information;verifying-vehicle-information",
+        "after": [
+          {
+            "result": {
+              "duration": 181752534,
+              "status": "passed"
+            },
+            "match": {
+              "location": "VehicleInfomationSteps.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10420733305,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on DVLA page",
+            "match": {
+              "location": "VehicleInfomationSteps.i_am_on_DVLA_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3411813317,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be able to find each vehicle by its registration plate extracted from data file",
+            "match": {
+              "location": "VehicleInfomationSteps.i_should_be_able_to_find_each_vehicle_by_its_registration_plate_extracted_from_data_file()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Vehicle information",
+    "description": "\nAs a user\nI should be able to search my vehicle by its registraion number\nSo that I can see what vehicle I am looking for",
+    "id": "vehicle-information",
+    "keyword": "Feature",
+    "uri": "testfeatures/VehicleInformation.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@VehicleInformation"
+      }
+    ]
+  }
+]
